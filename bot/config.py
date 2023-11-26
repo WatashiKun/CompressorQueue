@@ -1,4 +1,4 @@
-hi#    This file is part of the Compressor distribution.
+#    This file is part of the Compressor distribution.
 #    Copyright (c) 2021 Danish_00
 #
 #    This program is free software: you can redistribute it and/or modify
