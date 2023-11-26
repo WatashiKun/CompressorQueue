@@ -1,4 +1,4 @@
-#    This file is part of the Compressor distribution.
+hi#    This file is part of the Compressor distribution.
 #    Copyright (c) 2021 Danish_00
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -21,7 +21,7 @@ try:
     BOT_TOKEN = config("BOT_TOKEN", "6200331513:AAFcjwJdhu9zt4xje1MWod1LhvkXhHJ_3cM")
     DEV = 1322549723
     OWNER = config("OWNER", "5385471287")
-    FFMPEG = config("FFMPEG", "ffmpeg ""{}""-i -preset veryfast -c:v libx265 -crf 27 -s 1280x720 -map 0:v -c:a aac ""{}""") 
+    FFMPEG = config("FFMPEG", "ffmpeg ""{}"" -i -preset veryfast -c:v libx265 -crf 27 -s 1280x720 -map 0:v -c:a aac ""{}""") 
     THUMB = config("THUMBNAIL", "https://graph.org/file/75ee20ec8d8c8bba84f02")
 except Exception as e:
     print("Environment vars Missing")
